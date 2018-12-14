@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50E2A83721C350D200A7680B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E2A83621C350D200A7680B /* AppDelegate.m */; };
+		50E2A83A21C350D200A7680B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E2A83921C350D200A7680B /* ViewController.m */; };
+		50E2A83D21C350D200A7680B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E2A83B21C350D200A7680B /* Main.storyboard */; };
+		50E2A83F21C350D900A7680B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50E2A83E21C350D900A7680B /* Assets.xcassets */; };
+		50E2A84221C350D900A7680B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50E2A84021C350D900A7680B /* LaunchScreen.storyboard */; };
+		50E2A84521C350D900A7680B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E2A84421C350D900A7680B /* main.m */; };
+		50E2A84F21C350D900A7680B /* FFSuspensionViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E2A84E21C350D900A7680B /* FFSuspensionViewTests.m */; };
+		50E2A85A21C350D900A7680B /* FFSuspensionViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E2A85921C350D900A7680B /* FFSuspensionViewUITests.m */; };
+		50E2A87721C3510F00A7680B /* JumpView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E2A87121C3510F00A7680B /* JumpView.m */; };
+		50E2A87821C3510F00A7680B /* JumpViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E2A87521C3510F00A7680B /* JumpViewModel.m */; };
+		50E2A87921C3510F00A7680B /* FFSuspensionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 50E2A87621C3510F00A7680B /* FFSuspensionView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50E2A84B21C350D900A7680B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50E2A82A21C350D200A7680B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50E2A83121C350D200A7680B;
+			remoteInfo = FFSuspensionView;
+		};
+		50E2A85621C350D900A7680B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50E2A82A21C350D200A7680B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50E2A83121C350D200A7680B;
+			remoteInfo = FFSuspensionView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50E2A83221C350D200A7680B /* FFSuspensionView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFSuspensionView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E2A83521C350D200A7680B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		50E2A83621C350D200A7680B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		50E2A83821C350D200A7680B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		50E2A83921C350D200A7680B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		50E2A83C21C350D200A7680B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		50E2A83E21C350D900A7680B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		50E2A84121C350D900A7680B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		50E2A84321C350D900A7680B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50E2A84421C350D900A7680B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		50E2A84A21C350D900A7680B /* FFSuspensionViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFSuspensionViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E2A84E21C350D900A7680B /* FFSuspensionViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFSuspensionViewTests.m; sourceTree = "<group>"; };
+		50E2A85021C350D900A7680B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50E2A85521C350D900A7680B /* FFSuspensionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFSuspensionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E2A85921C350D900A7680B /* FFSuspensionViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFSuspensionViewUITests.m; sourceTree = "<group>"; };
+		50E2A85B21C350D900A7680B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50E2A87121C3510F00A7680B /* JumpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JumpView.m; sourceTree = "<group>"; };
+		50E2A87221C3510F00A7680B /* JumpViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JumpViewModel.h; sourceTree = "<group>"; };
+		50E2A87321C3510F00A7680B /* FFSuspensionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFSuspensionView.h; sourceTree = "<group>"; };
+		50E2A87421C3510F00A7680B /* JumpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JumpView.h; sourceTree = "<group>"; };
+		50E2A87521C3510F00A7680B /* JumpViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JumpViewModel.m; sourceTree = "<group>"; };
+		50E2A87621C3510F00A7680B /* FFSuspensionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFSuspensionView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50E2A82F21C350D200A7680B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E2A84721C350D900A7680B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E2A85221C350D900A7680B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50E2A82921C350D200A7680B = {
+			isa = PBXGroup;
+			children = (
+				50E2A83421C350D200A7680B /* FFSuspensionView */,
+				50E2A84D21C350D900A7680B /* FFSuspensionViewTests */,
+				50E2A85821C350D900A7680B /* FFSuspensionViewUITests */,
+				50E2A83321C350D200A7680B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50E2A83321C350D200A7680B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50E2A83221C350D200A7680B /* FFSuspensionView.app */,
+				50E2A84A21C350D900A7680B /* FFSuspensionViewTests.xctest */,
+				50E2A85521C350D900A7680B /* FFSuspensionViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		50E2A83421C350D200A7680B /* FFSuspensionView */ = {
+			isa = PBXGroup;
+			children = (
+				50E2A87021C3510F00A7680B /* FFSuspensionWindow */,
+				50E2A83521C350D200A7680B /* AppDelegate.h */,
+				50E2A83621C350D200A7680B /* AppDelegate.m */,
+				50E2A83821C350D200A7680B /* ViewController.h */,
+				50E2A83921C350D200A7680B /* ViewController.m */,
+				50E2A83B21C350D200A7680B /* Main.storyboard */,
+				50E2A83E21C350D900A7680B /* Assets.xcassets */,
+				50E2A84021C350D900A7680B /* LaunchScreen.storyboard */,
+				50E2A84321C350D900A7680B /* Info.plist */,
+				50E2A84421C350D900A7680B /* main.m */,
+			);
+			path = FFSuspensionView;
+			sourceTree = "<group>";
+		};
+		50E2A84D21C350D900A7680B /* FFSuspensionViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				50E2A84E21C350D900A7680B /* FFSuspensionViewTests.m */,
+				50E2A85021C350D900A7680B /* Info.plist */,
+			);
+			path = FFSuspensionViewTests;
+			sourceTree = "<group>";
+		};
+		50E2A85821C350D900A7680B /* FFSuspensionViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				50E2A85921C350D900A7680B /* FFSuspensionViewUITests.m */,
+				50E2A85B21C350D900A7680B /* Info.plist */,
+			);
+			path = FFSuspensionViewUITests;
+			sourceTree = "<group>";
+		};
+		50E2A87021C3510F00A7680B /* FFSuspensionWindow */ = {
+			isa = PBXGroup;
+			children = (
+				50E2A87421C3510F00A7680B /* JumpView.h */,
+				50E2A87121C3510F00A7680B /* JumpView.m */,
+				50E2A87521C3510F00A7680B /* JumpViewModel.m */,
+				50E2A87221C3510F00A7680B /* JumpViewModel.h */,
+				50E2A87321C3510F00A7680B /* FFSuspensionView.h */,
+				50E2A87621C3510F00A7680B /* FFSuspensionView.m */,
+			);
+			path = FFSuspensionWindow;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50E2A83121C350D200A7680B /* FFSuspensionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50E2A85E21C350D900A7680B /* Build configuration list for PBXNativeTarget "FFSuspensionView" */;
+			buildPhases = (
+				50E2A82E21C350D200A7680B /* Sources */,
+				50E2A82F21C350D200A7680B /* Frameworks */,
+				50E2A83021C350D200A7680B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FFSuspensionView;
+			productName = FFSuspensionView;
+			productReference = 50E2A83221C350D200A7680B /* FFSuspensionView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50E2A84921C350D900A7680B /* FFSuspensionViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50E2A86121C350D900A7680B /* Build configuration list for PBXNativeTarget "FFSuspensionViewTests" */;
+			buildPhases = (
+				50E2A84621C350D900A7680B /* Sources */,
+				50E2A84721C350D900A7680B /* Frameworks */,
+				50E2A84821C350D900A7680B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50E2A84C21C350D900A7680B /* PBXTargetDependency */,
+			);
+			name = FFSuspensionViewTests;
+			productName = FFSuspensionViewTests;
+			productReference = 50E2A84A21C350D900A7680B /* FFSuspensionViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50E2A85421C350D900A7680B /* FFSuspensionViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50E2A86421C350D900A7680B /* Build configuration list for PBXNativeTarget "FFSuspensionViewUITests" */;
+			buildPhases = (
+				50E2A85121C350D900A7680B /* Sources */,
+				50E2A85221C350D900A7680B /* Frameworks */,
+				50E2A85321C350D900A7680B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50E2A85721C350D900A7680B /* PBXTargetDependency */,
+			);
+			name = FFSuspensionViewUITests;
+			productName = FFSuspensionViewUITests;
+			productReference = 50E2A85521C350D900A7680B /* FFSuspensionViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50E2A82A21C350D200A7680B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = FFXiao;
+				TargetAttributes = {
+					50E2A83121C350D200A7680B = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					50E2A84921C350D900A7680B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 50E2A83121C350D200A7680B;
+					};
+					50E2A85421C350D900A7680B = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 50E2A83121C350D200A7680B;
+					};
+				};
+			};
+			buildConfigurationList = 50E2A82D21C350D200A7680B /* Build configuration list for PBXProject "FFSuspensionView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50E2A82921C350D200A7680B;
+			productRefGroup = 50E2A83321C350D200A7680B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50E2A83121C350D200A7680B /* FFSuspensionView */,
+				50E2A84921C350D900A7680B /* FFSuspensionViewTests */,
+				50E2A85421C350D900A7680B /* FFSuspensionViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50E2A83021C350D200A7680B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E2A84221C350D900A7680B /* LaunchScreen.storyboard in Resources */,
+				50E2A83F21C350D900A7680B /* Assets.xcassets in Resources */,
+				50E2A83D21C350D200A7680B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E2A84821C350D900A7680B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E2A85321C350D900A7680B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50E2A82E21C350D200A7680B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E2A87921C3510F00A7680B /* FFSuspensionView.m in Sources */,
+				50E2A87821C3510F00A7680B /* JumpViewModel.m in Sources */,
+				50E2A87721C3510F00A7680B /* JumpView.m in Sources */,
+				50E2A83A21C350D200A7680B /* ViewController.m in Sources */,
+				50E2A84521C350D900A7680B /* main.m in Sources */,
+				50E2A83721C350D200A7680B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E2A84621C350D900A7680B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E2A84F21C350D900A7680B /* FFSuspensionViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50E2A85121C350D900A7680B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50E2A85A21C350D900A7680B /* FFSuspensionViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50E2A84C21C350D900A7680B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50E2A83121C350D200A7680B /* FFSuspensionView */;
+			targetProxy = 50E2A84B21C350D900A7680B /* PBXContainerItemProxy */;
+		};
+		50E2A85721C350D900A7680B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50E2A83121C350D200A7680B /* FFSuspensionView */;
+			targetProxy = 50E2A85621C350D900A7680B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		50E2A83B21C350D200A7680B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50E2A83C21C350D200A7680B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		50E2A84021C350D900A7680B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50E2A84121C350D900A7680B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		50E2A85C21C350D900A7680B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		50E2A85D21C350D900A7680B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		50E2A85F21C350D900A7680B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XS8JSWV5LR;
+				INFOPLIST_FILE = FFSuspensionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.12456715.FFSuspensionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		50E2A86021C350D900A7680B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XS8JSWV5LR;
+				INFOPLIST_FILE = FFSuspensionView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.12456715.FFSuspensionView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		50E2A86221C350D900A7680B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XS8JSWV5LR;
+				INFOPLIST_FILE = FFSuspensionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.12456715.FFSuspensionViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FFSuspensionView.app/FFSuspensionView";
+			};
+			name = Debug;
+		};
+		50E2A86321C350D900A7680B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XS8JSWV5LR;
+				INFOPLIST_FILE = FFSuspensionViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.12456715.FFSuspensionViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FFSuspensionView.app/FFSuspensionView";
+			};
+			name = Release;
+		};
+		50E2A86521C350D900A7680B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XS8JSWV5LR;
+				INFOPLIST_FILE = FFSuspensionViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.12456715.FFSuspensionViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FFSuspensionView;
+			};
+			name = Debug;
+		};
+		50E2A86621C350D900A7680B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XS8JSWV5LR;
+				INFOPLIST_FILE = FFSuspensionViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.12456715.FFSuspensionViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FFSuspensionView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50E2A82D21C350D200A7680B /* Build configuration list for PBXProject "FFSuspensionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E2A85C21C350D900A7680B /* Debug */,
+				50E2A85D21C350D900A7680B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50E2A85E21C350D900A7680B /* Build configuration list for PBXNativeTarget "FFSuspensionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E2A85F21C350D900A7680B /* Debug */,
+				50E2A86021C350D900A7680B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50E2A86121C350D900A7680B /* Build configuration list for PBXNativeTarget "FFSuspensionViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E2A86221C350D900A7680B /* Debug */,
+				50E2A86321C350D900A7680B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50E2A86421C350D900A7680B /* Build configuration list for PBXNativeTarget "FFSuspensionViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E2A86521C350D900A7680B /* Debug */,
+				50E2A86621C350D900A7680B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 50E2A82A21C350D200A7680B /* Project object */;
+}
